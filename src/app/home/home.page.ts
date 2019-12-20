@@ -9,4 +9,10 @@ export class HomePage {
 
   constructor() {}
 
+  text = "ini Text"
+
+  onChangeText() {
+    this.text = "Text berubah"
+  }
+
 }
